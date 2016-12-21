@@ -15,6 +15,8 @@
 		5A42792B1DB77A91008A8A1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4279291DB77A91008A8A1A /* LaunchScreen.storyboard */; };
 		5A4279361DB77A91008A8A1A /* plistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4279351DB77A91008A8A1A /* plistTests.m */; };
 		5A4279411DB77A91008A8A1A /* plistUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4279401DB77A91008A8A1A /* plistUITests.m */; };
+		5A4279501DB789A0008A8A1A /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A42794F1DB789A0008A8A1A /* Student.m */; };
+		5A4279521DB78DA6008A8A1A /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A4279511DB78DA6008A8A1A /* Property List.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		5A42793C1DB77A91008A8A1A /* plistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = plistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A4279401DB77A91008A8A1A /* plistUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = plistUITests.m; sourceTree = "<group>"; };
 		5A4279421DB77A91008A8A1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A42794E1DB789A0008A8A1A /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		5A42794F1DB789A0008A8A1A /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		5A4279511DB78DA6008A8A1A /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				5A42791F1DB77A91008A8A1A /* AppDelegate.m */,
 				5A4279211DB77A91008A8A1A /* ViewController.h */,
 				5A4279221DB77A91008A8A1A /* ViewController.m */,
+				5A4279511DB78DA6008A8A1A /* Property List.plist */,
+				5A42794E1DB789A0008A8A1A /* Student.h */,
+				5A42794F1DB789A0008A8A1A /* Student.m */,
 				5A4279241DB77A91008A8A1A /* Main.storyboard */,
 				5A4279271DB77A91008A8A1A /* Assets.xcassets */,
 				5A4279291DB77A91008A8A1A /* LaunchScreen.storyboard */,
@@ -245,6 +253,7 @@
 			files = (
 				5A42792B1DB77A91008A8A1A /* LaunchScreen.storyboard in Resources */,
 				5A4279281DB77A91008A8A1A /* Assets.xcassets in Resources */,
+				5A4279521DB78DA6008A8A1A /* Property List.plist in Resources */,
 				5A4279261DB77A91008A8A1A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +282,7 @@
 				5A4279231DB77A91008A8A1A /* ViewController.m in Sources */,
 				5A4279201DB77A91008A8A1A /* AppDelegate.m in Sources */,
 				5A42791D1DB77A91008A8A1A /* main.m in Sources */,
+				5A4279501DB789A0008A8A1A /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
